@@ -13,8 +13,8 @@ class CityData: ObservableObject {
     @Published var allCountries: [Country] = Country.makeAll
     
     private let defaultList: CityList = CityList(
-        name: "Европа",
-        shortName: "EUR",
+        name: "Россия",
+        shortName: "RU",
         cities: CountryType.russia.cities,
         colorName: ColorOption.red.rawValue
     )
